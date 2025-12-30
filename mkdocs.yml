@@ -1,4 +1,6 @@
 site_name: CSC Latin America 2026 - HEP Computing
+site_url: https://artfisica.github.io/csc2026/
+
 theme:
   name: material
   features:
@@ -9,16 +11,16 @@ theme:
     - search.highlight
 
 nav:
-  - Home: README.md
+  - Home: index.md
   - Setup:
-      - Codespaces: docs/setup/codespaces.md
-      - Local: docs/setup/local.md
+      - Codespaces: setup/codespaces.md
+      - Local: setup/local.md
   - Exercises:
-      - Overview: docs/exercises/index.md
-      - TT-E1 Debugging: docs/exercises/tt_e1_debugging.md
-      - TT-E2 Docs & CI: docs/exercises/tt_e2_docs_ci.md
-      - SD-E1 Parallel: docs/exercises/sd_e1_parallel.md
-      - SD-E2 Benchmark + Optimise: docs/exercises/sd_e2_bench_optimize.md
+      - Overview: exercises/index.md
+      - TT-E1 Debugging: exercises/tt_e1_debugging.md
+      - TT-E2 Docs & CI: exercises/tt_e2_docs_ci.md
+      - SD-E1 Parallel: exercises/sd_e1_parallel.md
+      - SD-E2 Benchmark + Optimise: exercises/sd_e2_bench_optimize.md
 
 markdown_extensions:
   - admonition
@@ -31,3 +33,4 @@ markdown_extensions:
 
 plugins:
   - search
+  
